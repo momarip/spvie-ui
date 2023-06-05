@@ -1,0 +1,1058 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SEA - Landing Seniors</title>
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="stylesheet" href="./assets/css/mobileApp.css" />
+    <link rel="stylesheet" href="./assets/css/testemonials.css" />
+    <link rel="stylesheet" href="./assets/css/footer.css" />
+    <link rel="stylesheet" href="./assets/css/mobile.css" />
+    <link rel="stylesheet" href="./assets/css/banner.css" />
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.1.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="./assets/css/garanties.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flickity/1.0.0/flickity.css">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+  </head>
+  <body>
+    <!-- Home Banner -->
+    <section id="banner-desktop">
+    <div class="header-logo">
+      <img src="./assets/images/logo.png" alt="Logo" />
+    </div>
+    <div class="container">
+      <div class="mobile-title">
+        <h1 class="text-center">Obtenez une assurance santé sénior à partir de 33€/mois !</h1>
+      </div>
+      <div class="overflow-div-stars">
+          <div class="col-md-6">
+              <div class="row-cols-sm-7 trust-pilot">
+                <div>
+                  <img
+                    src="./assets/images/trust-pilot.png"
+                    alt="Trust Pilot"
+                    class="logo-trustpilot"
+                  />
+                </div>
+                <div class="stars">
+                  <span class="star star-full"></span>
+                  <span class="star star-full"></span>
+                  <span class="star star-full"></span>
+                  <span class="star star-full"></span>
+                  <span class="star star-half"></span>
+                  <span id="score">TrustScore 4.8 | 8915 avis</span>
+                </div>
+              </div>
+            </div>
+      </div>
+      <div class="overflow-div-offer">
+              <p class="offer-details">
+                <strong>Jusqu’à 300€/an</strong> pour des montures complexes
+                ou très complexes
+              </p>
+              <p class="offer-details">
+                <strong>Jusqu’à 200€/an</strong> pour des actes dentaires
+                non remboursés
+              </p>
+              <p class="offer-details">
+                Réseau de soin
+                <strong>Carte Blanche et Assistante Mutuaide</strong>
+              </p>
+      </div>
+      <div class="overflow-div-form">
+          <h1 class="text-center">
+            Obtenez une assurance santé sénior à partir de 33€/mois !
+          </h1>
+          <form>
+            <div class="row mb-3">
+              <div class="col-auto">
+                <label for="prenom" class="form-label">Prénom</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="prenom"
+                  name="prenom"
+                />
+              </div>
+              <div class="col-auto">
+                <!-- Add spacing between the fields -->
+                <div style="width: 100px"></div>
+              </div>
+              <div class="col-auto">
+                <label for="nom" class="form-label">Nom</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="nom"
+                  name="nom"
+                />
+              </div>
+            </div>
+            <div class="row mb-3">
+              <div class="col-auto">
+                <label for="dateNaissance" class="form-label"
+                  >Date de naissance</label
+                >
+                <input
+                  type="date"
+                  class="form-control custom-date-input"
+                  id="dateNaissance"
+                  name="dateNaissance"
+                />
+              </div>
+              <div class="col-auto">
+                <!-- Add spacing between the fields -->
+                <div style="width: 100px"></div>
+              </div>
+              <div class="col-auto">
+                <label for="codePostal" class="form-label"
+                  >Code postal</label
+                >
+                <input
+                  type="text"
+                  class="form-control"
+                  id="codePostal"
+                  name="codePostal"
+                />
+              </div>
+            </div>
+            <div class="row mb-3">
+              <div class="col-auto">
+                <label for="beneficiaires" class="form-label"
+                  >Souhaitez-vous ajouter des bénéficiaires?</label>
+
+                  <div class="form-check form-check-inline">
+                    <input
+                      class="form-check-input"
+                      type="radio"
+                      hidden
+                      name="beneficiaires"
+                      id="oui"
+                      value="oui"
+                    />
+                    <label class="checkbox" for="oui">OUI</label>
+                  </div>
+                  <div class="form-check form-check-inline">
+                    <input
+                      class="form-check-input"
+                      type="radio"
+                      hidden
+                      name="beneficiaires"
+                      id="non"
+                      value="non"
+                    />
+                    <label class="checkbox" for="non">NON</label>
+                  </div>
+                </div>
+              </div>
+
+              <div class="row mb-3">
+                <div class="col-auto">
+                  <label for="email" class="form-label">Email</label>
+                  <input
+                    type="email"
+                    class="form-control"
+                    id="email"
+                    name="email"
+                  />
+                </div>
+                <div class="col-auto">
+                  <!-- Add spacing between the fields -->
+                  <div style="width: 100px"></div>
+                </div>
+                <div class="col-auto">
+                  <label for="telephone" class="form-label"
+                    >Numéro de téléphone</label
+                  >
+                  <input
+                    type="tel"
+                    class="form-control"
+                    id="telephone"
+                    name="telephone"
+                  />
+                </div>
+              </div>
+              <div class="row mb-3">
+                <div class="col-auto">
+                  <div class="form-check">
+                    <input
+                      class="form-check-input"
+                      type="checkbox"
+                      id="politique"
+                      name="politique"
+                    />
+                    <label
+                      class="form-check-label politique"
+                      for="politique"
+                      >En soumettant ce formulaire, j’accepte que les
+                      informations saisies soient utilisées dans le cadre
+                      de la relation commerciale qui en découle. Aucun
+                      autre traitement ne sera effectué avec mes
+                      informations. En savoir plus sur notre politique de
+                      confidentialité.</label
+                    >
+                  </div>
+                </div>
+              </div>
+              <div class="row mb-3">
+                <div class="col-auto">
+                  <div class="captcha">
+                    <div
+                      class="g-recaptcha"
+                      data-sitekey="6Le8oq8UAAAAADSyaubiMfcxL1IqnYNDLPHeCKa8"
+                    ></div>
+                  </div>
+                </div>
+                <div class="col button">
+                  <button type="submit" class="btn">
+                    Confirmer
+                  </button>
+                </div>
+              </div>
+            </form>
+          </div>
+      <div class="senior-image"></div>
+    </div>
+  </section>
+
+    <section id="banner-mobile">
+      <div class="header-logo">
+        <img src="./assets/images/logo.png" alt="Logo" />
+      </div>
+      <h1 class="text-center">
+        <strong>Obtenez une assurance santé sénior à partir de 33€/mois !</strong>
+      </h1>
+      <div class="offer-mobile">
+        <p class="offer-details">
+          Jusqu’à 100% de prise encharge sur l'Hospitalisation </p>
+        <p class="offer-details">Jusqu’à 900€ remboursés sur l'optique</p>
+        <p class="offer-details">Jusqu’à 1900€ remboursés sur le dentaire</p>
+</div>
+    <div class="rating-mobile">
+      <div class="col-md-6">
+          <div class="row-cols-sm-7 trust-pilot">
+            <div>
+              <img
+                src="./assets/images/trust-pilot.png"
+                alt="Trust Pilot"
+                class="logo-trustpilot"
+              />
+            </div>
+            <div class="stars">
+              <span class="star star-full"></span>
+              <span class="star star-full"></span>
+              <span class="star star-full"></span>
+              <span class="star star-full"></span>
+              <span class="star star-half"></span>
+              <span id="score">TrustScore 4.8 | 8915 avis</span>
+            </div>
+          </div>
+        </div>
+    </div>
+    <div class="form-mobile">
+      <form>
+        <div class="row mb-3">
+          <div class="col-auto">
+            <label for="prenom" class="form-label">Prénom</label>
+            <input
+              type="text"
+              class="form-control"
+              id="prenom"
+              name="prenom"
+            />
+          </div>
+          <div class="col-auto">
+            <!-- Add spacing between the fields -->
+            <div style="width: 100px"></div>
+          </div>
+          <div class="col-auto">
+            <label for="nom" class="form-label">Nom</label>
+            <input
+              type="text"
+              class="form-control"
+              id="nom"
+              name="nom"
+            />
+          </div>
+        </div>
+        <div class="row mb-3">
+          <div class="col-auto">
+            <label for="dateNaissance" class="form-label"
+              >Date de naissance</label
+            >
+            <input
+              type="date"
+              class="form-control custom-date-input"
+              id="dateNaissance"
+              name="dateNaissance"
+            />
+          </div>
+          <div class="col-auto">
+            <!-- Add spacing between the fields -->
+            <div style="width: 100px"></div>
+          </div>
+          <div class="col-auto">
+            <label for="codePostal" class="form-label"
+              >Code postal</label
+            >
+            <input
+              type="text"
+              class="form-control"
+              id="codePostal"
+              name="codePostal"
+            />
+          </div>
+        </div>
+        <div class="row mb-3">
+          <div class="col-auto">
+            <label for="beneficiaires" class="form-label"
+              >Souhaitez-vous ajouter des bénéficiaires?</label>
+
+              <div class="form-check form-check-inline">
+                <input
+                  class="form-check-input"
+                  type="radio"
+                  hidden
+                  name="beneficiaires"
+                  id="oui"
+                  value="oui"
+                />
+                <label class="checkbox" for="oui">OUI</label>
+              </div>
+              <div class="form-check form-check-inline">
+                <input
+                  class="form-check-input"
+                  type="radio"
+                  hidden
+                  name="beneficiaires"
+                  id="non"
+                  value="non"
+                />
+                <label class="checkbox" for="non">NON</label>
+              </div>
+            </div>
+          </div>
+
+          <div class="row mb-3">
+            <div class="col-auto">
+              <label for="email" class="form-label">Email</label>
+              <input
+                type="email"
+                class="form-control"
+                id="email"
+                name="email"
+              />
+            </div>
+            <div class="col-auto">
+              <!-- Add spacing between the fields -->
+              <div style="width: 100px"></div>
+            </div>
+            <div class="col-auto">
+              <label for="telephone" class="form-label"
+                >Numéro de téléphone</label
+              >
+              <input
+                type="tel"
+                class="form-control"
+                id="telephone"
+                name="telephone"
+              />
+            </div>
+          </div>
+          <div class="row mb-3">
+            <div class="col-auto">
+              <div class="form-check">
+                <input
+                  class="form-check-input"
+                  type="checkbox"
+                  id="politique"
+                  name="politique"
+                />
+                <label
+                  class="form-check-label politique"
+                  for="politique"
+                  >En soumettant ce formulaire, j’accepte que les
+                  informations saisies soient utilisées dans le cadre
+                  de la relation commerciale qui en découle. Aucun
+                  autre traitement ne sera effectué avec mes
+                  informations. En savoir plus sur notre politique de
+                  confidentialité.</label
+                >
+              </div>
+            </div>
+          </div>
+          <div class="row mb-3">
+            <div class="col-auto">
+              <div class="captcha">
+                <div
+                  class="g-recaptcha"
+                  data-sitekey="6Le8oq8UAAAAADSyaubiMfcxL1IqnYNDLPHeCKa8"
+                ></div>
+              </div>
+            </div>
+            <div class="col button">
+              <button type="submit" class="btn">
+                Confirmer
+              </button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </section>
+
+    <!-- Why us section -->
+        <section id="why-us">
+          <div class="row">
+            <!-- Column One -->
+            <div class="column">
+              <div class="item">
+                <img alt="" src="./assets/images/why/check.svg" />
+                <p>Adhésion simple <br/> et rapide</p>
+              </div>
+            </div>
+            <!-- Column Two -->
+            <div class="column">
+              <div class="item">
+                <img alt="" src="./assets/images/why/security.svg" />
+                <p>Pas d’avance de frais <br/> avec le tiers payant</p>
+              </div>
+            </div>
+            <!-- Column Three -->
+            <div class="column">
+              <div class="item">
+                <img alt="" src="./assets/images/why/person.svg" />
+                <p>+ de 350 000 <br/> assurés</p>
+              </div>
+            </div>
+            <!-- Column Four -->
+            <div class="column">
+              <div class="item">
+                <img style="width: 40px; height: 40px;" alt="" src="./assets/images/why/star.svg" />
+                <p>Une application<br/> mobile</p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+      <!-- Recapitulatif section -->
+      <section id="carts">
+        <div class="section-title">
+            <h2>Recaputilatif des <strong>garanties</strong></h2>
+        </div>
+        <div class="gallery js-flickity"
+        data-flickity-options='{ "wrapAround": true }'>
+            <div class="gallery-cell carte">
+                <h3>Niveau A</h3>
+                <div>
+                    <div class="titre">
+                        <p>Hospitalisation</p>
+                    <ul>
+                        <div class="data flex">   
+                            <div class="col">
+                                <li>Honoraires</li>
+                                <li>Chambre particulier</li>
+                            </div>
+                            <div class="col">
+                                <li>100%BR</li>
+                                <li>35£/jour</li>
+                            </div>
+                        </div>
+                    </ul>
+                    </div>
+                </div>
+                <div>
+                    <div class="titre">
+                        <p>Soins courants</p>
+                    <ul>
+                        <div class="data flex">   
+                            <div class="col">
+                                <li>Honoraires</li>
+                            </div>
+                            <div class="col">
+                                <li>100%BR</li>
+                            </div>
+                        </div>
+                    </ul>
+                    </div>
+                </div>
+
+                <div>
+                    <div class="titre">
+                        <p>Pharmacie</p>
+                    <ul>
+                        <div class="data flex">   
+                            <div class="col">
+                                <li>Medicamests</li>
+                            </div>
+                            <div class="col">
+                                <li>100%BR</li>
+                            </div>
+                        </div>
+                    </ul>
+                    </div>
+                </div>
+
+                <div>
+                    <div class="titre">
+                        <p>Obtique(100% sante)</p>
+                    <ul>
+                        <div class="data flex">   
+                            <div class="col">
+                                <li>Equipe class A</li>
+                            </div>
+                            <div class="col">
+                                <li>Rembt integral</li>
+                            </div>
+                        </div>
+                    </ul>
+                    </div>
+                </div>
+
+                <div>
+                    <div class="titre">
+                        <p>Dentaire(100% sante)</p>
+                    <ul>
+                        <div class="data flex">   
+                            <div class="col">
+                                <li>Protheses dentaire</li>
+                            </div>
+                            <div class="col">
+                                <li>Rembt integral</li>
+                            </div>
+                        </div>
+                    </ul>
+                    </div>
+                </div>
+                <div>
+                    <div class="titre">
+                        <p>Aides auditives (100% santé)</p>
+                    <ul>
+                        <div class="data flex">   
+                            <div class="col">
+                                <li>Appareillage</li>
+                            </div>
+                            <div class="col">
+                                <li>Rembt integral</li>
+                            </div>
+                        </div>
+                    </ul>
+                    </div>
+                </div>
+        
+                <div>
+                    <h1><strong>Le + : </strong></h1>
+                    <p>Vous beneficiez l'offre de sevices<br/>
+                    <strong id="catre_blance">Carte Blanche</strong></p>
+                </div>
+
+                <div class="pricing">
+                    <p><strong>A partir de XX TTC/mois</strong></p>
+                </div>
+            </div>
+
+            <div class="gallery-cell carte">
+                <h3>Niveau A</h3>
+                <div>
+                    <div class="titre">
+                        <p>Hospitalisation</p>
+                    <ul>
+                        <div class="data flex">   
+                            <div class="col">
+                                <li>Honoraires</li>
+                                <li>Chambre particulier</li>
+                            </div>
+                            <div class="col">
+                                <li>100%BR</li>
+                                <li>35£/jour</li>
+                            </div>
+                        </div>
+                    </ul>
+                    </div>
+                </div>
+                <div>
+                    <div class="titre">
+                        <p>Soins courants</p>
+                    <ul>
+                        <div class="data flex">   
+                            <div class="col">
+                                <li>Honoraires</li>
+                            </div>
+                            <div class="col">
+                                <li>100%BR</li>
+                            </div>
+                        </div>
+                    </ul>
+                    </div>
+                </div>
+
+                <div>
+                    <div class="titre">
+                        <p>Pharmacie</p>
+                    <ul>
+                        <div class="data flex">   
+                            <div class="col">
+                                <li>Medicamests</li>
+                            </div>
+                            <div class="col">
+                                <li>100%BR</li>
+                            </div>
+                        </div>
+                    </ul>
+                    </div>
+                </div>
+
+                <div>
+                    <div class="titre">
+                        <p>Obtique(100% sante)</p>
+                    <ul>
+                        <div class="data flex">   
+                            <div class="col">
+                                <li>Equipe class A</li>
+                            </div>
+                            <div class="col">
+                                <li>Rembt integral</li>
+                            </div>
+                        </div>
+                    </ul>
+                    </div>
+                </div>
+
+                <div>
+                    <div class="titre">
+                        <p>Dentaire(100% sante)</p>
+                    <ul>
+                        <div class="data flex">   
+                            <div class="col">
+                                <li>Protheses dentaire</li>
+                            </div>
+                            <div class="col">
+                                <li>Rembt integral</li>
+                            </div>
+                        </div>
+                    </ul>
+                    </div>
+                </div>
+                <div>
+                    <div class="titre">
+                        <p>Aides auditives (100% santé)</p>
+                    <ul>
+                        <div class="data flex">   
+                            <div class="col">
+                                <li>Appareillage</li>
+                            </div>
+                            <div class="col">
+                                <li>Rembt integral</li>
+                            </div>
+                        </div>
+                    </ul>
+                    </div>
+                </div>
+        
+                <div>
+                    <h1><strong>Le + : </strong></h1>
+                    <p>Vous beneficiez l'offre de sevices<br/>
+                    <strong id="catre_blance">Carte Blanche</strong></p>
+                </div>
+
+                <div class="pricing">
+                    <p><strong>A partir de XX TTC/mois</strong></p>
+                </div>
+            </div>
+
+            <div class="gallery-cell carte">
+                <h3>Niveau A</h3>
+                <div>
+                    <div class="titre">
+                        <p>Hospitalisation</p>
+                    <ul>
+                        <div class="data flex">   
+                            <div class="col">
+                                <li>Honoraires</li>
+                                <li>Chambre particulier</li>
+                            </div>
+                            <div class="col">
+                                <li>100%BR</li>
+                                <li>35£/jour</li>
+                            </div>
+                        </div>
+                    </ul>
+                    </div>
+                </div>
+                <div>
+                    <div class="titre">
+                        <p>Soins courants</p>
+                    <ul>
+                        <div class="data flex">   
+                            <div class="col">
+                                <li>Honoraires</li>
+                            </div>
+                            <div class="col">
+                                <li>100%BR</li>
+                            </div>
+                        </div>
+                    </ul>
+                    </div>
+                </div>
+
+                <div>
+                    <div class="titre">
+                        <p>Pharmacie</p>
+                    <ul>
+                        <div class="data flex">   
+                            <div class="col">
+                                <li>Medicamests</li>
+                            </div>
+                            <div class="col">
+                                <li>100%BR</li>
+                            </div>
+                        </div>
+                    </ul>
+                    </div>
+                </div>
+
+                <div>
+                    <div class="titre">
+                        <p>Obtique(100% sante)</p>
+                    <ul>
+                        <div class="data flex">   
+                            <div class="col">
+                                <li>Equipe class A</li>
+                            </div>
+                            <div class="col">
+                                <li>Rembt integral</li>
+                            </div>
+                        </div>
+                    </ul>
+                    </div>
+                </div>
+
+                <div>
+                    <div class="titre">
+                        <p>Dentaire(100% sante)</p>
+                    <ul>
+                        <div class="data flex">   
+                            <div class="col">
+                                <li>Protheses dentaire</li>
+                            </div>
+                            <div class="col">
+                                <li>Rembt integral</li>
+                            </div>
+                        </div>
+                    </ul>
+                    </div>
+                </div>
+                <div>
+                    <div class="titre">
+                        <p>Aides auditives (100% santé)</p>
+                    <ul>
+                        <div class="data flex">   
+                            <div class="col">
+                                <li>Appareillage</li>
+                            </div>
+                            <div class="col">
+                                <li>Rembt integral</li>
+                            </div>
+                        </div>
+                    </ul>
+                    </div>
+                </div>
+        
+                <div>
+                    <h1><strong>Le + : </strong></h1>
+                    <p>Vous beneficiez l'offre de sevices<br/>
+                    <strong id="catre_blance">Carte Blanche</strong></p>
+                </div>
+
+                <div class="pricing">
+                    <p><strong>A partir de XX TTC/mois</strong></p>
+                </div>
+            </div>
+
+            <div class="gallery-cell carte">
+                <h3>Niveau A</h3>
+                <div>
+                    <div class="titre">
+                        <p>Hospitalisation</p>
+                    <ul>
+                        <div class="data flex">   
+                            <div class="col">
+                                <li>Honoraires</li>
+                                <li>Chambre particulier</li>
+                            </div>
+                            <div class="col">
+                                <li>100%BR</li>
+                                <li>35£/jour</li>
+                            </div>
+                        </div>
+                    </ul>
+                    </div>
+                </div>
+                <div>
+                    <div class="titre">
+                        <p>Soins courants</p>
+                    <ul>
+                        <div class="data flex">   
+                            <div class="col">
+                                <li>Honoraires</li>
+                            </div>
+                            <div class="col">
+                                <li>100%BR</li>
+                            </div>
+                        </div>
+                    </ul>
+                    </div>
+                </div>
+
+                <div>
+                    <div class="titre">
+                        <p>Pharmacie</p>
+                    <ul>
+                        <div class="data flex">   
+                            <div class="col">
+                                <li>Medicamests</li>
+                            </div>
+                            <div class="col">
+                                <li>100%BR</li>
+                            </div>
+                        </div>
+                    </ul>
+                    </div>
+                </div>
+
+                <div>
+                    <div class="titre">
+                        <p>Obtique(100% sante)</p>
+                    <ul>
+                        <div class="data flex">   
+                            <div class="col">
+                                <li>Equipe class A</li>
+                            </div>
+                            <div class="col">
+                                <li>Rembt integral</li>
+                            </div>
+                        </div>
+                    </ul>
+                    </div>
+                </div>
+
+                <div>
+                    <div class="titre">
+                        <p>Dentaire(100% sante)</p>
+                    <ul>
+                        <div class="data flex">   
+                            <div class="col">
+                                <li>Protheses dentaire</li>
+                            </div>
+                            <div class="col">
+                                <li>Rembt integral</li>
+                            </div>
+                        </div>
+                    </ul>
+                    </div>
+                </div>
+                <div>
+                    <div class="titre">
+                        <p>Aides auditives (100% santé)</p>
+                    <ul>
+                        <div class="data flex">   
+                            <div class="col">
+                                <li>Appareillage</li>
+                            </div>
+                            <div class="col">
+                                <li>Rembt integral</li>
+                            </div>
+                        </div>
+                    </ul>
+                    </div>
+                </div>
+        
+                <div>
+                    <h1><strong>Le + : </strong></h1>
+                    <p>Vous beneficiez l'offre de sevices<br/>
+                    <strong id="catre_blance">Carte Blanche</strong></p>
+                </div>
+
+                <div class="pricing">
+                    <p><strong>A partir de XX TTC/mois</strong></p>
+                </div>
+            </div>
+
+        </div>
+    <div class="container">
+        <div class="bonus">
+            <h4><strong>Bonus fidelite :</strong></h4>
+            <p>Si vous êtes connus pour être fidèle, chez nous tous les ans, vous gagnerez davantage en remboursements !</p>
+        </div>
+
+        <div class="invoice">
+            <button class="btn">Demender un devis</button>
+        </div>
+    </div>
+    </section>
+
+    <!-- Mobile App section -->
+    <section id="mobile-app">
+        <img src="./assets/images/phone.png" class="phone"  alt="phone"/>
+        <div class="container">
+          <h1><strong>Et pour nos tous assurés,</strong> Une application mobile ! </h1>
+          <p><strong>Téléchargez l’application SPVIE Assurances</strong> et suivez la vie de votre contrat santé, envoyez vos documents, téléchargez votre carte de tiers-payant directement depuis votre smartphone.</p>
+          <div class="row">
+            <div class="col-md-6">
+              <img src="./assets/images/play-store.png" alt="play store" class="download" />
+            </div>
+            <div class="col-md-6">
+              <img src="./assets/images/apple-store.png" alt="apple store" class="download" />
+            </div>
+          </div>
+        </div>
+    </section>
+
+    <section id="mobile-app-mobile">
+      
+      <div class="container">
+        <h1><strong>Et pour nos tous assurés,</strong> Une application mobile ! </h1>
+        <p><strong>Téléchargez l’application SPVIE Assurances</strong> et suivez la vie de votre contrat santé, envoyez vos documents, téléchargez votre carte de tiers-payant directement depuis votre smartphone.</p>
+        <div class="col">
+          <div class="row">
+            <div class="col-md-6">
+              <img src="./assets/images/play-store.png" alt="play store" class="download" />
+            </div>
+            <div class="col-md-6">
+              <img src="./assets/images/apple-store.png" alt="apple store" class="download" />
+            </div>
+          </div>
+          <div class="col-md-6">
+            <img src="./assets/images/phone.png" class="phone"  alt="phone"/>
+          </div>
+        </div>
+        
+      </div>
+  </section>
+
+    <!-- Testemonials section -->
+    <section id="testemonials">
+      <h1>Ce que <strong> nos assurés pensent</strong></h1>
+      <div class="gallery js-flickity"
+        data-flickity-options='{ "wrapAround": true }'>
+            <div class="gallery-cell single">
+              <div class="content">
+                <h1><strong>“</strong></h1>
+                <p><strong>DUPONT Ycare</strong> | 08.2021</p>
+                <img src="./assets/images/5-stars.png" alt="star" class="star-gold" />
+      
+                <p>C'est une bonne mutuelle j'y suis depuis plus de 4 ans, toujours avec le même conseiller très a l'écoute et surtout disponible quand je l'appelle. Les remboursements sont rapide.</p>
+              </div>    
+            </div>
+            <div class="gallery-cell single">
+              <div class="content">
+                <h1><strong>“</strong></h1>
+                <p><strong>DUPONT Ycare</strong> | 08.2021</p>
+                <img src="./assets/images/5-stars.png" alt="star" class="star-gold" />
+                <p>C'est une bonne mutuelle j'y suis depuis plus de 4 ans, toujours avec le même conseiller très a l'écoute et surtout disponible quand je l'appelle. Les remboursements sont rapide.</p>
+              </div>    
+            </div>
+            <div class="gallery-cell single">
+              <div class="content">
+                <h1><strong>“</strong></h1>
+                <p><strong>DUPONT Ycare</strong> | 08.2021</p>
+                <img src="./assets/images/5-stars.png" alt="star" class="star-gold" />
+                <p>C'est une bonne mutuelle j'y suis depuis plus de 4 ans, toujours avec le même conseiller très a l'écoute et surtout disponible quand je l'appelle. Les remboursements sont rapide.</p>
+              </div>    
+            </div>
+            <div class="gallery-cell single">
+              <div class="content">
+                <h1><strong>“</strong></h1>
+                <p><strong>DUPONT Ycare</strong> | 08.2021</p>
+                 <img src="./assets/images/5-stars.png" alt="star" class="star-gold" />
+                <p>C'est une bonne mutuelle j'y suis depuis plus de 4 ans, toujours avec le même conseiller très a l'écoute et surtout disponible quand je l'appelle. Les remboursements sont rapide.</p>
+              </div>    
+            </div>
+        </div>
+    </section>
+    <!-- Legal info section -->
+    <section id="legal-info">
+      <div>
+        <p>SPVIE Assurances • SAS au capital de 48.868,30 € • Siège social : 26 rue Pagès, 92150 SURESNES • RCS de Nanterre n° 525 355 251 • Courtier en assurances immatriculé à l’ORIAS sous le n°10 058 151 (www.orias.fr) et soumis au contrôle de l’ACPR, 4 Place de Budapest-CS 92459- 75436 PARIS CEDEX 09 • La liste des assureurs partenaires est disponible sur https://www.spvie.com/partenaires • Réclamation : Service Réclamation, 26 rue Pagès, 92150 SURESNES ou reclamations@spvie.com • Médiation : Dans le cas où le service réclamation ne vous aurait pas apporté de réponse satisfaisante, vous pouvez saisir le Médiateur de l’Assurance à l’adresse suivante :  La Médiation de l’Assurance, Pole CSCA, TSA 50110, 75441 Paris Cedex 09 ou le.mediateur@mediation-assurance.org.
+        </p>
+      </div>
+    </section>
+
+    <!-- Footer section -->
+    <section id="footer">
+      <div class="container">
+        <div class="row">
+          <div id="logo-footer" class="col-2">
+            <img src="./assets/images/logo.png" alt="Logo">
+          </div>
+          <div class="col-2 links">
+            <ul>
+              <li>Espace assuré</li>
+              <li>Espace entreprise</li>
+              <li>Espace courtier</li>
+            </ul>
+          </div>
+          <div class="col-2 links">
+            <ul>
+              <li>On réalise pour vous</li>
+              <li>Recrutement</li>
+              <li>Partenaires</li>
+            </ul>
+          </div>
+          <div class="col-2 links">
+            <ul>
+              <li>Nous contacter</li>
+              <li>Nous connaître</li>
+            </ul>
+          </div>
+          <div class="col-2 links">
+            <ul>
+              <li>informations légales</li>
+              <li>Politique des données personnelles</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="footer-mobile">
+      <div class="container">
+        
+        <div class="row">
+          <div class="col-4 links">
+            <ul>
+              <li>Espace assuré</li>
+              <li>Espace entreprise</li>
+              <li>Espace courtier</li>
+            </ul>
+          </div>
+          <div class="col-4 links">
+            <ul>
+              <li>On réalise pour vous</li>
+              <li>Nous connaître</li>
+              <li>Recrutement</li>
+            </ul>
+          </div>
+          <div class="col-4 links">
+            <ul>
+              <li>Nous contacter</li>
+              <li>Mentions légales</li>
+              <li>Données personnelles</li>
+            </ul>
+          </div>
+        </div>
+        <div id="logo-footer">
+          <img src="./assets/images/logo.png" alt="Logo">
+        </div>
+      </div>
+    </section>
+
+          <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+          <script src="https://cdnjs.cloudflare.com/ajax/libs/flickity/1.0.0/flickity.pkgd.js"></script>
+          <script src="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <script src="https://www.google.com/recaptcha/api.js"></script>
+  </body>
+</html>

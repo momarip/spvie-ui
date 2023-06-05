@@ -1,0 +1,173 @@
+  
+  #carts{
+    margin-top: 2%;
+    background-color: #f2cfc040;
+  }
+
+#carts .gallery {
+    padding: 5%;
+    width: 100%;
+  }
+
+#carts .section-title{
+    text-align: left;
+    font-size: 30px;
+    font-weight: bold;
+    padding-top: 2%;
+    padding-left: 5%;
+    text-transform: uppercase;
+  }
+  
+#carts .gallery-cell {
+    width: 26%;
+    height: 660px;
+    padding-left: 2%;
+    margin-left: 3%;
+    padding-right: 2%;
+    padding-top: 1%;
+    border-radius: 20px;
+    background: white;
+  }
+
+  .bonus{
+    width: 70%;
+    height: 130px;
+    text-align: center;
+    padding-top: 2%;
+    padding-left: 3%;
+    padding-right: 3%;
+    border-radius: 20px;
+    background: white;
+  }
+  
+
+
+
+#carts .carte .data{
+  justify-content: space-between;
+  display: flex;
+  /* margin-bottom: 50; */
+}
+
+#carts .carte h3{
+  text-align: center;
+  /* margin-bottom: 50; */
+}
+
+#carts .carte .titre{
+  padding-top: 2%;
+}
+
+#carts .carte .titre p{
+  font-size: 16px;
+  text-decoration: underline;
+}
+
+#catre_blance{
+  text-decoration: underline;
+}
+
+.pricing{
+  padding-top: 20px;
+  text-align: center;
+  font-size: 15px;
+}
+
+#carts .carte .data{
+  font-size: 14px;
+}
+
+#carts .carte .data ul{
+  margin-left: 10px;
+  padding-top: 0.4px;
+}
+
+li{
+    list-style: none;
+    color: rgba(0, 0, 0, 0.326);
+}
+
+#carts .carte h1{
+    font-size: 14px;
+}
+
+#carts .container:nth-of-type(2){
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4 , 24%);
+    gap: 10;
+    justify-content: space-between;
+}
+
+
+#carts .container:last-child{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+#carts .container:last-child .carte{
+    text-align: center;
+    width: 90%;
+    align-items: flex-start;
+    margin: 20;
+    border-radius: 10px;
+}
+
+#carts .container .carte p{
+    padding: 10;
+}
+
+.invoice{
+
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
+.btn{
+    align-items: flex-start;
+    color: white;
+    background-color: #00ce8d;
+    width: 180px;
+    height: 45px;
+    padding: 10 20;
+    font-weight: bold;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+}
+
+.flickity-page-dots {
+  display: none;
+}
+
+.flickity-prev-next-button {
+  display: none;
+}
+
+
+@media screen and (max-width: 800px) {
+
+  #carts .gallery-cell {
+    width: 90%;
+    height: 660px;
+    padding-left: 2%;
+    margin-left: 3%;
+    padding-right: 2%;
+    padding-top: 1%;
+    border-radius: 20px;
+    background: white;
+  }
+  .btn{
+    margin-top: 10%;
+  }
+  #carts .section-title{
+    text-align: left;
+    font-size: 18px;
+    font-weight: bold;
+    padding-top: 2%;
+    padding-left: 8%;
+    text-transform: uppercase;
+  }
+}

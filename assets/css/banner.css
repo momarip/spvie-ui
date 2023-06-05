@@ -1,0 +1,232 @@
+.container{
+    margin-top: 5%;
+    margin-left: 5%;
+}
+
+.mobile-title{
+  display: none;
+}
+.senior-image {
+    background-image: url("../images/senior.jpg");
+    border-radius: 20px;
+    height: 732px;
+    width: 872px;
+    margin-left: -8%;
+  }
+
+.overflow-div-offer {
+    position: absolute;
+    width: 40%;
+    text-align: center;
+    height: 14%;
+    border-radius: 15px;
+    background-color: white;
+    overflow: auto;
+    top: 88%;
+    left: 7%;
+  }
+.overflow-div-form{
+    position: absolute;
+    width: 43%;
+    padding: 3%;
+    height: 73%;
+    border-radius: 15px;
+    background-color: white;
+    overflow: auto;
+    top: 27%;
+    left: 55%;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+}
+.overflow-div-form button {
+    margin-top: 20px;
+  }
+  .form-control[type="date"] {
+    width: 187px;
+  }
+  
+  .form-control[type="text"] {
+    width: 187px;
+  }
+  
+  .form-control[type="email"] {
+    width: 187px;
+  }
+  
+  .form-control[type="tel"] {
+    width: 187px;
+  }
+  
+  .form-check-label,
+  .politique {
+    font-size: 11px;
+    color: black;
+    margin-left: 5px;
+  }
+  
+  .captcha {
+    float: right;
+  }
+  .checkbox {
+    width: 77px;
+    background-color: white;
+    border-radius: 10px;
+    border: 1px solid #919191;
+    height: 39px;
+    text-align: center;
+    padding-top: 5px;
+    margin-left: 3px;
+  }
+  
+  .overflow-div-stars {
+    position: absolute;
+    width: 80%;
+    height: 10%;
+    top: 25%;
+    left: 6%;
+    overflow: auto;
+  }
+  .logo-trustpilot {
+      width: 80px;
+    }
+    .stars {
+      font-size: 24px;
+    }
+    
+    .star {
+      display: inline-block;
+      width: 20px;
+      height: 20px;
+      background-image: url('../images/star-green.png');
+      background-repeat: no-repeat;
+      background-size: contain;
+    }
+    
+    .star-full {
+      background-position: 0 0;
+    }
+    
+    .star-half {
+      background-position: -10px 0;
+    }
+    
+    #score {
+      font-size: 14px;
+      color: white;
+    }
+    
+  .overflow-div:nth-child(1) {
+    top: 10px;
+    left: 100px;
+    overflow: auto;
+  }
+  
+  
+  .normal-div {
+    margin-top: 120px;
+    width: 200px;
+    height: 50px;
+    background-color: #00f;
+    color: #fff;
+    text-align: center;
+    line-height: 50px;
+  }
+  
+
+  #banner-mobile{
+    display: none;
+}
+
+@media (max-width: 800px) {
+    /* Adjust the max-width as needed for your mobile breakpoint */
+    .header-logo img{
+      width: 150px;
+    }
+    
+    #banner-desktop{
+        display: none;
+    }
+
+    #banner-mobile{
+        display: block;
+        background-color: #f2cfc040;
+        height: 100%;
+    }
+
+    #banner-mobile h1{
+      padding: 10px;
+      font-size: 30px;
+    }
+
+    #banner-mobile .offer-mobile{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding: 0px;
+      gap: 10px;
+    }
+
+    #banner-mobile .rating-mobile{
+      margin-top: 5%;
+      margin-left: 5%;
+      margin-right: 5%;
+    }
+    #score{
+      color: black;
+    }
+
+    #banner-mobile .form-mobile{
+      margin-top: 5%;
+      left: 2.5%;
+      position: relative;
+      width: 90%;
+      padding: 6%;
+      height: 70%;
+      border-radius: 15px;
+      background-color: white;
+      box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+      border-radius: 20px;
+    }
+
+    #banner-mobile .form-mobile button {
+      margin-top: 10px;
+    }
+    .form-control[type="date"] {
+      width: 300px;
+    }
+    
+    .form-control[type="text"] {
+      width: 300px;
+    }
+    
+    .form-control[type="email"] {
+      width: 300px;
+    }
+    
+    .form-control[type="tel"] {
+      width: 300px;
+    }
+    
+    .form-check-label,
+    .politique {
+      font-size: 11px;
+      color: black;
+      margin-left: 5px;
+    }
+    
+    .captcha {
+      float: right;
+    }
+    .checkbox {
+      width: 77px;
+      background-color: white;
+      border-radius: 10px;
+      border: 1px solid #919191;
+      height: 39px;
+      text-align: center;
+      padding-top: 5px;
+      margin-left: 3px;
+    }
+    
+  }

@@ -1,0 +1,83 @@
+#mobile-app{
+    display: flex;
+    background-color: #f2cfc040;
+    width: 80%;
+    height: 200px;
+    position: relative;
+    overflow: visible;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    border-radius: 10px;
+}
+
+.phone{
+    width: 200px;
+    height: 300px;
+    position: absolute;
+    top: -100px; 
+    left:  50px; 
+    
+}
+
+#mobile-app .container{
+    width: 70%;
+    text-align: left;
+    margin-top: auto;
+    margin-left: 30%;
+    margin-bottom: auto;
+}
+
+#mobile-app .container h1{
+    font-size: 25px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: black;
+}
+
+.download {
+    width: 30%;
+    height: 100px;
+}
+
+#mobile-app .container .data{
+    justify-content:  flex-start;
+    display: flex;
+}
+
+
+#mobile-app-mobile{
+    display: none;
+}
+
+@media screen and (max-width: 800px) {
+    #mobile-app{
+        display: none;
+    }
+
+    #mobile-app-mobile{
+        display: block;
+        background-color: #f2cfc040;
+        width: 80%;
+        height: 30%;
+        position: relative;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 100px;
+        border-radius: 10px;
+    }
+
+    .phone{
+        width: 130px;
+        height: 200px;
+        margin-left: 50%;
+        margin-top: -20%;
+    }
+    #mobile-app-mobile .container h1{
+        font-size: 18px;
+        font-weight: bold;
+        text-transform: uppercase;
+        color: black;
+    }
+
+}
